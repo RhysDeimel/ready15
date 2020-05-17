@@ -1,0 +1,100 @@
+/*Fonts*/
+/*headings: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif*/
+/*content*: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif*/
+
+/*Breakpoints
+for-phone-only: @media (max-width: 599px) {}
+for-tablet-portrait-up: @media (min-width: 600px) {}
+for-tablet-landscape-up: @media (min-width: 900px) {}
+for-desktop-up: @media (min-width: 1200px) {}
+for-big-desktop-up: @media (min-width: 1800px) {}*/
+
+body {
+    text-rendering: optimizeLegibility;
+    font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+}
+
+nav {
+    background: #a89797;
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+nav li {
+    box-sizing: border-box;
+    flex: auto;
+    list-style: none;
+    text-align: center;
+}
+
+h1,h2,h3 {
+    font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+    padding: 0.3em;
+}
+
+p {
+    padding: 1em;
+}
+
+footer {
+    background: #a89797;   
+}
+
+footer > ul {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+footer li {
+    box-sizing: border-box;
+    flex: auto;
+    list-style: none;
+    text-align: center;
+}
+
+#banner {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sublist {
+    /* TODO: make visible when on larger screen format & using JS*/
+    display: none;
+}
+
+
+
+
+
+
+/*@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+
+// usage
+.my-box {
+  padding: 10px;
+  
+  @include for-desktop-up {
+    padding: 20px;
+  }
+}
