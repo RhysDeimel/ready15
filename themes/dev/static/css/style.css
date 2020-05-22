@@ -4,7 +4,9 @@
 /*content*: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif*/
 
 /*Colours*/
-/*logo: text=1761a0 wings=a01761*/
+/*Triad*: 032E54, A12C27, 1660A1, 97A106, 505408/*/
+/*Monochromatic: 218EED, 4E82B0, 1660A1, 68AFED, 0F426E*/
+/*logo: text=1761a0 wings=a01761
 
 /*Breakpoints
 for-phone-only: @media (max-width: 599px) {}
@@ -13,64 +15,79 @@ for-tablet-landscape-up: @media (min-width: 900px) {}
 for-desktop-up: @media (min-width: 1200px) {}
 for-big-desktop-up: @media (min-width: 1800px) {}*/
 
+html, body {
+  height: 100%;
+}
+
 body {
-    text-rendering: optimizeLegibility;
-    font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+  text-rendering: optimizeLegibility;
+  font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+  margin: auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
 }
 
 nav {
-    background: #a89797;
+  background: #4E82B0;
+  width: 100vw;
 }
 
 nav > ul {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
 }
 
 nav li {
-    box-sizing: border-box;
-    flex: auto;
-    list-style: none;
-    text-align: center;
+  box-sizing: border-box;
+  flex: auto;
+  list-style: none;
+  text-align: center;
 }
 
 h1,h2,h3 {
-    font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
-    padding: 0.3em;
+  font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+  padding: 0.4em;
 }
 
 p {
-    padding: 1em;
+  line-height: 1.7;
+  padding: 1em;
 }
 
 footer {
-    background: #a89797;   
+  background: #4E82B0;
+  width: 100vw;
+  flex-shrink: 0;
 }
 
 footer > ul {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
 }
 
 footer li {
-    box-sizing: border-box;
-    flex: auto;
-    list-style: none;
-    text-align: center;
+  box-sizing: border-box;
+  flex: auto;
+  list-style: none;
+  text-align: center;
 }
 
 #banner {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 90vw;
+  display: block;
+  margin: 1em auto;
 }
 
 .sublist {
-    /* TODO: make visible when on larger screen format & using JS*/
-    display: none;
+  /* TODO: make visible when on larger screen format & using JS*/
+  display: none;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 
