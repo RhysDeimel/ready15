@@ -15,7 +15,7 @@ for-tablet-landscape-up: @media (min-width: 900px) {}
 for-desktop-up: @media (min-width: 1200px) {}
 for-big-desktop-up: @media (min-width: 1800px) {}*/
 
-html, body {
+html {
   height: 100%;
 }
 
@@ -49,15 +49,11 @@ nav li {
 
 h1,h2,h3 {
   font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
-  margin: 1em 0 0;
 }
 
 p {
   line-height: 1.7;
-  padding: 1em;
-  /*padding: auto;*/
-  /*max-width: 33em;*/
-  margin: auto;
+  max-width: 33em;
 }
 
 footer {
@@ -84,9 +80,14 @@ nav, footer {
   color: #ffffff;
 }
 
-.content div {
-  max-width: 33em;
-  margin: auto;
+.content-wrapper{
+  max-width: 48em;
+  padding: 1em;
+  background: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #banner {
@@ -102,13 +103,11 @@ nav, footer {
 
 .content {
   flex: 1 0 auto;
-  width:auto;
+  background: rgba(0,0,0,0.05);
+  align-items: center;
 }
 
 @media screen and (max-width: 599px) {
-  h1,h2,h3 {
-    margin: 1em .3em 0;
-  }
 }
 
 @media screen and (min-width: 900px) {
@@ -134,19 +133,13 @@ nav, footer {
     margin-left: 300px;
   }
 
-/*  nav li {
-    text-align: left;
-    font-size: 1.1em;
-  }*/
   #banner {
-    /*move to nav column*/
     width: 280px;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 10px;
     z-index: 100;
-    /*display: none;*/
   }
 }
 
