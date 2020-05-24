@@ -15,7 +15,7 @@ for-tablet-landscape-up: @media (min-width: 900px) {}
 for-desktop-up: @media (min-width: 1200px) {}
 for-big-desktop-up: @media (min-width: 1800px) {}*/
 
-html {
+html, body {
   height: 100%;
 }
 
@@ -88,6 +88,7 @@ nav, footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 
 #banner {
