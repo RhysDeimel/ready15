@@ -17,17 +17,12 @@
             <ul>
                 <li>aircraft</li>
                 <ul class="sublist">
-                    <li>F-5E Tiger II</li>
-                    <li>Ka-50</li>
-                    <li>M-2000C</li>
-                </ul>
-                <li>missions</li>
-                <ul class="sublist">
-                    <li>F-5E Tiger II</li>
-                    <li>Ka-50</li>
-                    <li>M-2000C</li>
+                    {% for category, articles in categories|sort %}
+                    <li>{{ category if category != 'editor' }}</li>
+                    {% endfor %}
                 </ul>
                 <li>editor</li>
+                <li>missions</li>
             </ul>
         </nav>
 

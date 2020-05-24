@@ -97,11 +97,6 @@ nav, footer {
   margin: 1em auto;
 }
 
-.sublist {
-  /* TODO: make visible when on larger screen format & using JS*/
-  display: none;
-}
-
 .content {
   flex: 1 0 auto;
   background: rgba(0,0,0,0.05);
@@ -109,6 +104,10 @@ nav, footer {
 }
 
 @media screen and (max-width: 599px) {
+  .sublist {
+  /* TODO: make visible when on larger screen format & using JS*/
+  display: none;
+}
 }
 
 @media screen and (min-width: 900px) {
@@ -122,7 +121,8 @@ nav, footer {
   }
   nav > ul {
     flex-direction: column;
-    display: none;
+    padding-top: 5em;
+    /*display: none;*/
   }
 
   footer {
