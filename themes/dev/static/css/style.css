@@ -76,7 +76,6 @@ footer li {
 }
 
 .content-wrapper{
-  max-width: 48em;
   padding: 1em;
   background: #ffffff;
   height: 100%;
@@ -138,6 +137,10 @@ footer li {
 
   section {
     margin-left: 300px;
+  }
+
+  .content-wrapper {
+    max-width: 48em;
   }
 
   #banner {
