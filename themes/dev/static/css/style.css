@@ -29,23 +29,22 @@ body {
 }
 
 nav {
-  background: #4E82B0;
   width: 100vw;
-}
-
-nav > ul {
   display: flex;
-  flex-wrap: nowrap;
-  padding: 0;
-  margin: 0.5em 0;
+  flex-direction: column;
+
 }
 
-nav li {
+nav ul {
+  list-style: none;
+}
+
+/*nav li {
   box-sizing: border-box;
   flex: auto;
   list-style: none;
   text-align: center;
-}
+}*/
 
 h1,h2,h3 {
   font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
@@ -76,10 +75,6 @@ footer li {
   text-align: center;
 }
 
-nav, footer {
-  color: #ffffff;
-}
-
 .content-wrapper{
   max-width: 48em;
   padding: 1em;
@@ -103,11 +98,24 @@ nav, footer {
   align-items: center;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 899px) {
+
+  .nav-list > ul {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+
+  .nav-list li {
+    box-sizing: border-box;
+    flex: auto;
+    text-align: center;
+  }
+
   .sublist {
   /* TODO: make visible when on larger screen format & using JS*/
-  display: none;
-}
+    display: none;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -117,13 +125,11 @@ nav, footer {
     bottom: 0;
     left: 0;
     width: 300px;
-    background: #68AFED;
   }
-  nav > ul {
+/*  nav > ul {
     flex-direction: column;
     padding-top: 5em;
-    /*display: none;*/
-  }
+  }*/
 
   footer {
     /*unhide and do something with*/
@@ -136,11 +142,6 @@ nav, footer {
 
   #banner {
     width: 280px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 10px;
-    z-index: 100;
   }
 }
 

@@ -6,24 +6,29 @@
     <head>
         {% block head %}
         <title>ready15</title>
-            <a href="{{ SITEURL }}/index.html">
-                <img id=banner alt="ready15 banner logo" src="{{ SITEURL }}/theme/images/ready15_optimised.svg">
-            </a>
         {% endblock head %}
     </head>
 
     <body>
         <nav>
-            <ul>
-                <li>Aircraft</li>
-                <ul class="sublist">
-                    {% for category, articles in categories|sort %}
-                    <li>{{ category if category != 'editor' }}</li>
-                    {% endfor %}
+            <div class="nav-logo">
+                <a href="{{ SITEURL }}/index.html">
+                    <img id=banner alt="ready15 banner logo" src="{{ SITEURL }}/theme/images/ready15_optimised.svg">
+                </a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li>Aircraft</li>
+                    <ul class="sublist">
+                        {% for category, articles in categories|sort %}
+                        <li>{{ category if category != 'editor' }}</li>
+                        {% endfor %}
+                    </ul>
+                    <li>Editor</li>
+                    <li>Missions</li>
                 </ul>
-                <li>Editor</li>
-                <li>Missions</li>
-            </ul>
+            </div>
+            <div class="nav-footer"><!-- holds the footer --></div>
         </nav>
 
         <section class=content>
