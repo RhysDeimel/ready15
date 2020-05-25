@@ -15,14 +15,14 @@
     <body>
         <nav>
             <ul>
-                <li>aircraft</li>
+                <li>Aircraft</li>
                 <ul class="sublist">
                     {% for category, articles in categories|sort %}
                     <li>{{ category if category != 'editor' }}</li>
                     {% endfor %}
                 </ul>
-                <li>editor</li>
-                <li>missions</li>
+                <li>Editor</li>
+                <li>Missions</li>
             </ul>
         </nav>
 
