@@ -20,9 +20,20 @@
                 <ul>
                     <li>Aircraft</li>
                     <ul class="sublist">
-                        {% for category, articles in categories|sort %}
-                        <li>{{ category if category != 'editor' }}</li>
-                        {% endfor %}
+                    {% for category, articles in categories|sort %}
+                        {% if category != 'editor' %}
+                        <li>
+                            <a href="{{ SITEURL }}/{{ category.url }}">{{ category}}</a>
+                        </li>
+                        <ul>
+                            {% for article in articles %}
+                            <li>
+                                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    {% endfor %}
                     </ul>
                     <li>Editor</li>
                     <li>Missions</li>

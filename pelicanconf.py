@@ -15,3 +15,5 @@ DEFAULT_LANG = "en"
 DEFAULT_PAGINATION = False
 
 PAGE_SAVE_AS = "{slug}.html"
+
+USE_FOLDER_AS_CATEGORY = False
