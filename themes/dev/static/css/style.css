@@ -39,13 +39,6 @@ nav ul {
   list-style: none;
 }
 
-/*nav li {
-  box-sizing: border-box;
-  flex: auto;
-  list-style: none;
-  text-align: center;
-}*/
-
 h1,h2,h3 {
   font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
 }
@@ -121,22 +114,26 @@ footer li {
   nav {
     position: fixed;
     top: 0;
-    bottom: 0;
+    bottom: 3em;
     left: 0;
     width: 300px;
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
-/*  nav > ul {
-    flex-direction: column;
-    padding-top: 5em;
-  }*/
 
   footer {
-    /*unhide and do something with*/
-    display: none;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
   }
 
   section {
     margin-left: 300px;
+  }
+
+  .nav-list > ul {
+    margin-bottom: 2em;
   }
 
   .content-wrapper {
