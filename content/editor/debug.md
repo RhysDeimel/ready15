@@ -1,5 +1,6 @@
-Title: Lorem Ipsum
+Title: Debug
 Date: 2020-04-16 12:29
+Category: editor
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus nisl eu libero placerat congue. Curabitur elementum quam fermentum, venenatis leo ut, hendrerit nibh. Vivamus porttitor rhoncus turpis ut auctor. Nulla facilisi. In efficitur rhoncus velit ac molestie. Donec tincidunt pulvinar eros, congue finibus purus cursus at. Nullam sollicitudin ultricies sollicitudin. Suspendisse ornare neque nunc, sit amet malesuada risus ultricies nec. Suspendisse potenti. Maecenas vel risus ante. Phasellus ornare nulla sit amet nisi ultricies, quis congue lacus mattis. Suspendisse potenti.
 
