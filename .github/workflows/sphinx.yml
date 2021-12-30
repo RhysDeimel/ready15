@@ -1,6 +1,11 @@
 name: Sphinx build
 
-on: push
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'docs/**'
 
 jobs:
   build:
