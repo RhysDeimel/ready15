@@ -13,11 +13,18 @@ Using this site
 :doc:`contributing`
     How to contribute changes to the site.
 
+Aircraft
+----------------
+
+* :doc:`ka50/index`
+* :doc:`mi24p/index`
+
+
 
 .. Hidden TOCs
 
 .. toctree::
-   :caption: Theme Documentation
+   :caption: Overview
    :maxdepth: 2
    :hidden:
 
