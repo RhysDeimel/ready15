@@ -11,7 +11,10 @@ Using this site
     How to use this site and its resources.
 
 :doc:`contributing`
-    How to contribute changes to the site.
+    How to contribute changes.
+
+:doc:`code_of_conduct`
+    How to behave.
 
 Aircraft
 ----------------
@@ -24,7 +27,7 @@ Aircraft
 .. Hidden TOCs
 
 .. toctree::
-   :caption: Overview
+   :caption: Using this site
    :maxdepth: 2
    :hidden:
 
