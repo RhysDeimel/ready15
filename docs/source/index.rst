@@ -33,6 +33,7 @@ Aircraft
 
    overview
    contributing
+   code_of_conduct
 
 .. toctree::
     :maxdepth: 2

@@ -1,7 +1,7 @@
 Contributing
 ============
 
-|project_name| is living, breating document maintained through community efforts.
+Ready15 is living, breating document maintained through community efforts.
 
 If you would like to contribute
 but don't know how, you've come to the right place!
@@ -9,7 +9,7 @@ Before adding to the documentation,
 remember that all members of our community are expected to follow our :doc:`/code_of_conduct`.
 Please make sure you are welcoming and friendly in all of our spaces.
 
-|project_name| uses `reStructuredText <https://docutils.sourceforge.io/rst.html>`_ and `Sphinx <https://www.sphinx-doc.org>`_ to generate HTML which is then hosted on `GitHub Pages <https://pages.github.com/>`_ using the `Read the Docs <https://readthedocs.org/>`_ `theme <https://github.com/readthedocs/sphinx_rtd_theme>`_.
+Ready15 uses `reStructuredText <https://docutils.sourceforge.io/rst.html>`_ and `Sphinx <https://www.sphinx-doc.org>`_ to generate HTML which is then hosted on `GitHub Pages <https://pages.github.com/>`_ using the `Read the Docs <https://readthedocs.org/>`_ `theme <https://github.com/readthedocs/sphinx_rtd_theme>`_.
 
 Getting started
 ---------------
@@ -29,7 +29,7 @@ Contributing through the GitHub UI
 
 If you find an error on a page, or would like to make a minor amendment you can verify those changes through the documentation generated when you open a `pull request <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_ and can be accessed using the Github UI.
 
-#. on a |project_name| page, click the :guilabel:`Edit on GitHub` link in the top right corner
+#. on a Ready15 page, click the :guilabel:`Edit on GitHub` link in the top right corner
 
 #. on the tab that opens, click the pencil icon to the top right of the document. This will `Fork this project and edit the file`
 
@@ -39,7 +39,7 @@ If you find an error on a page, or would like to make a minor amendment you can 
 
 #. on the pull request page, fill in details about the changes you've made to allow us to better review, and click :guilabel:`Create pull request` when ready
 
-#. your pull request has been created and one of the |project_name| maintainers will review your changes. When accepted, a maintainer will merge, and the website will be automatically updated! 
+#. your pull request has been created and one of the Ready15 maintainers will review your changes. When accepted, a maintainer will merge, and the website will be automatically updated!
 
 Contributing from your local machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,6 +83,8 @@ Guidelines
 Please follow these guidelines when updating our docs.
 Let us know if you have any questions or something isn't clear.
 
+The optimal section length is `7 minutes <https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b>`_. This equates to 1400~1750 words. If a page exceeds this, consider breaking it into multiple pages.
+
 For page titles, or Heading1 as they are sometimes called, we use title-case.
 
 If the page includes multiple sub-headings (H2, H3),
@@ -104,22 +106,8 @@ Where to go from here
 This is the end of the contribution page.
 
 Here you have some resources to continue learning about documentation
-and |project_name|:
+and Ready15:
 
 - To make the most of the documentation generator you can read the `Sphinx tutorial <https://www.sphinx-doc.org/en/master/tutorial/index.html>`_.
 
 Happy documenting!
-
-
-
-
-
-
-
-The optimal section length is `7 minutes <https://medium.com/data-lab/the-optimal-post-is-7-minutes-74b9f41509b>`_. This equates to 1400~1750 words.
-
-
-
-
-
-
