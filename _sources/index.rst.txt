@@ -11,18 +11,29 @@ Using this site
     How to use this site and its resources.
 
 :doc:`contributing`
-    How to contribute changes to the site.
+    How to contribute changes.
+
+:doc:`code_of_conduct`
+    How to behave.
+
+Aircraft
+----------------
+
+* :doc:`ka50/index`
+* :doc:`mi24p/index`
+
 
 
 .. Hidden TOCs
 
 .. toctree::
-   :caption: Theme Documentation
+   :caption: Using this site
    :maxdepth: 2
    :hidden:
 
    overview
    contributing
+   code_of_conduct
 
 .. toctree::
     :maxdepth: 2
